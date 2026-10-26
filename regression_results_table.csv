@@ -1,0 +1,4 @@
+,Coefficient,Standard Error,P-value,CI Lower,CI Upper
+const,0.0052,0.0098,0.5986,-0.0141,0.0244
+SPY,1.8939,0.2455,0.0000,1.4126,2.3751
+previous_month_rate_change_pp,0.0278,0.0403,0.4904,-0.0512,0.1069

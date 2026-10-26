@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   SOXX   R-squared:                       0.586
+Model:                            OLS   Adj. R-squared:                  0.570
+Method:                 Least Squares   F-statistic:                     31.08
+Date:                Sun, 25 Oct 2026   Prob (F-statistic):           1.04e-09
+Time:                        18:23:19   Log-Likelihood:                 69.953
+No. Observations:                  57   AIC:                            -133.9
+Df Residuals:                      54   BIC:                            -127.8
+Df Model:                           2                                         
+Covariance Type:                  HC3                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                             0.0052      0.010      0.526      0.599      -0.014       0.024
+SPY                               1.8939      0.246      7.714      0.000       1.413       2.375
+previous_month_rate_change_pp     0.0278      0.040      0.690      0.490      -0.051       0.107
+==============================================================================
+Omnibus:                        4.112   Durbin-Watson:                   2.020
+Prob(Omnibus):                  0.128   Jarque-Bera (JB):                4.455
+Skew:                           0.099   Prob(JB):                        0.108
+Kurtosis:                       4.355   Cond. No.                         22.7
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
